@@ -12,14 +12,14 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak_to_grandma = "I LOVE YOU GRANDMA!"
-
-if speak_to_grandma == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN!"
-elsif speak_to_grandma == speak_to_grandma.upcase
-  puts "NO, NOT SINCE 1938!"
-else
-  puts "HUH? SPEAK UP, SONNY!"
+def speak_to_grandma(string)
+  if speak_to_grandma == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+  elsif speak_to_grandma == speak_to_grandma.upcase
+    puts "NO, NOT SINCE 1938!"
+  else
+    puts "HUH? SPEAK UP, SONNY!"
+  end
 end
 
-#phrase = "I LOVE YOU GRANDMA!"
+string = "I LOVE YOU GRANDMA!"
