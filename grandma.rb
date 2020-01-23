@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-string = "I LOVE YOU GRANDMA!"
+
 
 def speak_to_grandma(string)
   if string == "I LOVE YOU GRANDMA!"
@@ -24,3 +24,6 @@ def speak_to_grandma(string)
   end
 end
 
+string = "I LOVE YOU GRANDMA!"
+string = "BOB"
+string = "jujio"
