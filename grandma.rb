@@ -22,4 +22,4 @@ def speak_to_grandma(string)
   end
 end
 
-string = "I LOVE YOU GRANDMA!"
+#string = "I LOVE YOU GRANDMA!"
